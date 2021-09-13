@@ -1,0 +1,76 @@
+body {
+    background: #F7F5E6;
+    color: #333A56;
+}
+
+.navbar {
+    background: #333A56;
+    font-family: 'Vollkorn', serif;
+    font-size: 18px;
+}
+
+.site-footer {
+    background: #333A56;
+    color: #F7F5E6;
+    font-family: 'Vollkorn', serif;
+}
+
+.footer-link {
+    color: #F7F5E6;
+}
+
+a:hover {
+    color: #F7F5E6;
+}
+
+.btn-link {
+    color: #F7F5E6;
+    font-family: 'Vollkorn', serif;
+}
+
+.btn-link:hover {
+    color:#F7F5E6;
+}
+
+.about {
+    margin: 4em 0 6.5em 0;
+    padding: 1em;
+    position: relative;
+}
+
+.about h1 {
+    color:#333A56;
+    margin: 2em;
+    font-family: 'Vollkorn', serif;
+}
+
+.about img {
+    height: 100%;
+    width: 100%;
+    border-radius: 50%
+}
+
+.about span {
+    display: block;
+    color: #333A56;
+    position: absolute;
+    left: 115px;
+    font-family: 'Exo', sans-serif;
+    margin-top: 1rem;
+}
+
+.about .desc {
+    padding: 2em;
+    border-left:4px solid #333A56;
+}
+
+.about .desc h3 {
+    font-family: 'Vollkorn', serif;
+    color: #333A56;
+}
+
+.about .desc p{
+    line-height:2;
+    color:#333A56;
+    font-family: 'Exo', sans-serif;
+}
