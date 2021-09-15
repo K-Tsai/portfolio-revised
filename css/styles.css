@@ -74,3 +74,25 @@ a:hover {
     color:#333A56;
     font-family: 'Exo', sans-serif;
 }
+
+.card-title {
+    font-family: 'Vollkorn', serif;
+    color:#333A56;
+}
+
+.card-text {
+    font-family: 'Exo', sans-serif;
+    color:#333A56;
+}
+
+.btn {
+    color: #FFF;
+    background: #333A56;
+    border-color: #333A56;
+    font-family: 'Exo', sans-serif;
+}
+
+.btn:hover {
+    color: #FFF;
+    text-decoration: underline;
+}
