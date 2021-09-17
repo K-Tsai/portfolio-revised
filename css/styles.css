@@ -85,14 +85,75 @@ a:hover {
     color:#333A56;
 }
 
-.btn {
+.footer-btn, .btn {
     color: #FFF;
     background: #333A56;
     border-color: #333A56;
     font-family: 'Exo', sans-serif;
 }
 
+.email-button, .email-link {
+    color: #333A56;
+    font-size: 2em;
+    margin-right: 10px;
+}
+.email-link {
+    font-family: 'Vollkorn', serif;
+}
+
 .btn:hover {
     color: #FFF;
     text-decoration: underline;
+}
+
+.links {
+    margin-left: 8.333333%
+}
+
+.contact-header {
+    font-family: 'Vollkorn', serif;
+    color: #333A56;
+}
+
+.contact-form {
+    margin: 9em;
+}
+
+.form-label {
+    color: #333A56;
+    font-family: 'Exo', sans-serif;
+}
+
+@media only screen and(max-width: 991px) {
+    .profile {
+        display:flex;
+        align-items:center;
+    }
+    
+}
+
+@media only screen and (max-width: 767px) {
+    a.btn.btn-link {
+        margin-bottom: 1.5em;
+    }
+
+    .about .desc {
+        border-left: none;
+        margin-top: 2em;
+    }
+
+    .about {
+        margin-bottom: 2em;
+    }
+
+    .links {
+        text-align: center;
+        margin-left: 0em;
+    }
+}
+
+@media only screen and (max-width: 540px) {
+   .contact-form {
+    margin:2em 0em 2em 0em;
+   }
 }
