@@ -33,7 +33,7 @@ a:hover {
 }
 
 .about {
-    margin: 1em 0 9.5em 0;
+    margin: 1em 0 11em 0;
     padding: 1em;
     position: relative;
 }
@@ -45,8 +45,6 @@ a:hover {
 }
 
 .about img {
-    /* height: 100%;
-    width: 100%; */
     border-radius: 50%
 }
 
@@ -116,7 +114,7 @@ a:hover {
 }
 
 .contact-form {
-    margin: 9em;
+    margin: 9em auto 9em auto;
 }
 
 .form-label {
